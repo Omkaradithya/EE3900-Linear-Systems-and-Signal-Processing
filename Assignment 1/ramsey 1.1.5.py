@@ -26,7 +26,7 @@ print(a,b,c,d)
 #a and b are in the same ratio, as well as c and d, so they are opposite and parallel
 
 #Finding one of the angle
-print(np.transpose(a)@b)
+print(a.T@b)
 
 #function for line generation
 def line_gen(A,B):
